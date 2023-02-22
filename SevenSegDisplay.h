@@ -5,7 +5,7 @@
 
 class SevenSegDisplay {
 public:
-    SevenSegDisplay(PinName p1, PinName p2, PinName p3, PinName p4, PinName p5, PinName p6, PinName p7, PinName p8);
+    SevenSegDisplay(PinName a, PinName b, PinName c, PinName d, PinName e, PinName f, PinName g);
     void write(int digit);
     void off();
 
