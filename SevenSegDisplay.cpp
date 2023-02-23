@@ -15,7 +15,7 @@ void SevenSegDisplay::write(int value) {
         0b01111101, // 6
         0b00000111, // 7
         0b01111111, // 8
-        0b01100111  // 9
+        0b01101111  // 9
     };
 
     if (value >= 0 && value <= 9) {
